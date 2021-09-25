@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/5fbea5a863.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>HalalEats</title>
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html"
+            >HalalEats <i class="fas fa-hamburger"></i
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#features"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#business">Partnerships</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-header">Great tasting halal foods near you</h1>
+            <br />
+            <button type="button" class="btn btn-dark btn-lg download-btn">
+              <i class="fab fa-apple"></i> Download
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg download-btn"
+            >
+              <i class="fab fa-google-play"></i> Download
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="phone-img"
+              src="./images/phoneImage.png"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-center">
+            <div class="features-img col-lg">
+              <img
+                class="burger-img"
+                src="./images/burger.jpg"
+                alt="burger-img"
+              />
+            </div>
+            <div class="features-img col-lg">
+              <img class="sushi-img" src="./images/sushi.jpg" alt="sushi-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="features-text col-sm">
+            <i class="features-icon fas fa-pizza-slice fa-3x"></i>
+            <h3>Spoilt for choice</h3>
+            <p>Access to hundreds of halal options at your fingertips.</p>
+          </div>
+          <div class="features-text col-sm">
+            <i class="features-icon fas fa-car-side fa-3x"></i>
+            <h3>Fast Delivery</h3>
+            <p>Guaranteed to be at your doorstep in under 30 minutes.</p>
+          </div>
+          <div class="features-text col-sm">
+            <i class="features-icon fas fa-headset fa-3x"></i>
+            <h3>24 Hour Support</h3>
+            <p>Always here to help so you don't stress.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div
+        id="testimonial-carousel"
+        class="carousel slide"
+        data-ride="false"
+        data-interval="5000"
+        data-pause="hover"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">
+              <i
+                >"With a few taps on my phone, I enjoy halal food from a range
+                of cuisines. I don't bother going to resturaunts anymore."</i
+              >
+            </h2>
+            <img
+              class="testimonial-img khadija-img"
+              src="./images/person2.jpg"
+              alt="lady-profile"
+            />
+            <em class="person-text">Khadija, London</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">
+              <i
+                >"Before HalalEats I was going to the same three places all the
+                time. I now have lots more options."</i
+              >
+            </h2>
+            <img
+              class="testimonial-img"
+              src="./images/person1.jpg"
+              alt="dude-profile"
+            />
+            <em class="person-text">Ibrahim, New York</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">
+              <i
+                >"HalalEats has improved my business performance by tenfolds in
+                just 6 months!"</i
+              >
+            </h2>
+            <img
+              class="testimonial-img"
+              src="./images/person3.jpg"
+              alt="boss-profile"
+            />
+            <em class="person-text">Rafique, Bristol</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img
+        class="press-image"
+        src="./images/guardian.png"
+        alt="guardian-logo"
+      />
+      <img class="press-image" src="./images/TechCrunch.png" alt="tc-logo" />
+      <img class="press-image" src="./images/bizinsider.png" alt="bi-logo" />
+    </section>
+
+    <!-- Business -->
+    <section id="business">
+      <h2 class="business-heading">Partner with us</h2>
+      <p class="business-text">
+        Simple and affordable price plans to attract more customers
+      </p>
+      <div class="row">
+        <div class="business-column col-lg col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h2>Basic</h2>
+            </div>
+            <div class="card-body">
+              <h3 class="price-header">Free</h3>
+              <p>No monthly charge to list your business</p>
+              <p>Customers can search for your business easily</p>
+              <p>Small fee per order (5%)</p>
+              <button
+                type="button"
+                class="purchase-btn btn btn-lg btn-block btn-outline-dark"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="business-column col-lg col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Premium</h3>
+            </div>
+            <div class="card-body">
+              <h3 class="price-header">£9.99 per month</h3>
+              <p>Be the first in customers search list</p>
+              <p>Have your business listed on GPS map</p>
+              <p>Reduced fee per order (3%)</p>
+              <button
+                type="button"
+                class="purchase-btn btn btn-lg btn-block btn-outline-dark"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="business-column col-lg">
+          <div class="card">
+            <div class="card-header">
+              <h2>VIP</h2>
+            </div>
+            <div class="card-body">
+              <h3 class="price-header">£14.99 per month</h3>
+              <p>Be listed as a must eat in local area</p>
+              <p>Resturaunts listed on map</p>
+              <p>Further reduced fee per order (2%)</p>
+              <button
+                type="button"
+                class="purchase-btn btn btn-lg btn-block btn-outline-dark"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to action -->
+    <section id="cta">
+      <h1 class="cta-heading">Enjoy tasty halal foods today!</h1>
+      <button type="button" class="btn btn-dark btn-lg download-btn">
+        <i class="fab fa-apple"></i> Download
+      </button>
+      <button type="button" class="btn btn-outline-light btn-lg download-btn">
+        <i class="fab fa-google-play"></i> Download
+      </button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="white-section" id="footer">
+      <i class="footer-icon fab fa-twitter fa-2x"></i>
+      <i class="footer-icon fab fa-facebook-square fa-2x"></i>
+      <i class="footer-icon fab fa-instagram fa-2x"></i>
+      <i class="footer-icon fas fa-envelope fa-2x"></i>
+      <p class="footer-text">© Copyright 2021 HalalEats</p>
+    </footer>
+  </body>
+</html>
